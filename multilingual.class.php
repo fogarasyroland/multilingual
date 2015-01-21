@@ -1,4 +1,8 @@
 <?php
+/*
+Usage:
+$m = new Multilingual('hu',array('hu'=>'hu.ini','en'=>'en.ini'));
+*/
 class Multilingual {
 	protected $languages;
 	protected $language_file;
